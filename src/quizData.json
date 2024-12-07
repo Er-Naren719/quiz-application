@@ -1,0 +1,268 @@
+{
+  "categories": [
+    {
+      "id": "js_basics",
+      "name": "JavaScript Basics",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "When an operator’s value is NULL, the typeof returned by the unary operator is:",
+          "options": [
+            "A. Boolean",
+            "B. Undefined", 
+            "C. Object",
+            "D. Integer"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 10
+        },
+        {
+          "id": "q2",
+          "question": "Which company developed JavaScript?",
+          "options": [
+            "A. Microsoft",
+            "B. Netscape", 
+            "C. Google",
+            "D. Mozilla"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 10
+        },
+        {
+          "id": "q3",
+          "question": "Which function is used to serialize an object into a JSON string in Javascript?",
+          "options": [
+            "A. stringify()",
+            "B. parse()", 
+            "C. convert()",
+            "D. None of the above"
+          ],
+          "correctAnswer": "A",
+          "timeLimit": 10
+        },
+        {
+          "id": "q4",
+          "question": "Which function is used to serialize an object into a JSON string in Javascript?",
+          "options": [
+            "A. stringify()",
+            "B. parse()", 
+            "C. convert()",
+            "D. None of the above"
+          ],
+          "correctAnswer": "A",
+          "timeLimit": 10
+        },
+        {
+          "id": "q5",
+          "question": "Which object in Javascript doesn’t have a prototype?",
+          "options": [
+            "A. Base Object",
+            "B. All objects have a prototype", 
+            "C. None of the objects have a prototype",
+            "D. None of the above"
+          ],
+          "correctAnswer": "A",
+          "timeLimit": 10
+        }
+      ]
+    },
+    {
+      "id": "angular_basics",
+      "name": "Angular Basics",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "To detect changes in the angular 2 project which of the following is used?",
+          "options": [
+            "A. zone.js",
+            "B. scope.js",
+            "C. zones.js",
+            "D. chart.js"
+          ],
+          "correctAnswer": "A",
+          "timeLimit": 10
+        },
+        {
+          "id": "q2",
+          "question": "How is interpolation in angular 2 done?",
+          "options": [
+            "A. {{{}}}",
+            "B. {{}}",
+            "C. {{|var}}", 
+            "D. !!!!"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 10
+        },
+        {
+          "id": "q3",
+          "question": "Module created by using AngularJS function is known as",
+          "options": [
+            "A. module()",
+            "B. mod()",
+            "C. Angular module()", 
+            "D. mdl()"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 10
+        },
+        {
+          "id": "q4",
+          "question": "Most used CSS frameworks are",
+          "options": [
+            "A. SASS",
+            "B. Semantic UI",
+            "C. Bootstrap", 
+            "D. Foundation"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 10
+        },
+        {
+          "id": "q5",
+          "question": "Which of the following are closures in Javascript?",
+          "options": [
+            "A. Variables",
+            "B. Functions", 
+            "C. Objects",
+            "D. All of the above"
+          ],
+          "correctAnswer": "D",
+          "timeLimit": 10
+        }
+      ]
+    },
+    {
+      "id": "react_basics",
+      "name": "React Basics",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is the primary use of React?",
+          "options": [
+            "A. Backend Development",
+            "B. Mobile Development",
+            "C. User Interface Development",
+            "D. Database Management"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 10
+        },
+        {
+          "id": "q2",
+          "question": "What is a React Component?",
+          "options": [
+            "A. A database table",
+            "B. A reusable piece of UI",
+            "C. A server-side function", 
+            "D. A CSS class"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 10
+        },
+        {
+          "id": "q3",
+          "question": "Which of the following is a basic hook in react?",
+          "options": [
+            "A. useReducer()",
+            "B. useMemo()",
+            "C. useCallback()", 
+            "D. useContext()"
+          ],
+          "correctAnswer": "D",
+          "timeLimit": 10
+        },
+        {
+          "id": "q4",
+          "question": "React is a ___",
+          "options": [
+            "A. Frontend Framework",
+            "B. Backend Framework",
+            "C. JavaScript Library", 
+            "D. JavaScript Module"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 10
+        },
+        {
+          "id": "q5",
+          "question": "JSX allows us to write____",
+          "options": [
+            "A. BootStrap in React",
+            "B. Jquery in React",
+            "C. MongoDB in React", 
+            "D. HTML in React"
+          ],
+          "correctAnswer": "D",
+          "timeLimit": 10
+        }
+      ]
+    },
+    {
+      "id": "flutter",
+      "name": "Flutter",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is Flutter?",
+          "options": [
+            "A. Flutter is an open-source backend development framework",
+            "B. Flutter is an open-source UI toolkit",
+            "C. Flutter is an open-source programming language for cross-platform applications",
+            "D. Flutters is a DBMS toolkit"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 10
+        },
+        {
+          "id": "q2",
+          "question": "Who developed the Flutter Framework and continues to maintain it today?",
+          "options": [
+            "A. Facebook",
+            "B. Microsoft",
+            "C. Google",
+            "D. Oracle"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 10
+        },
+        {
+          "id": "q3",
+          "question": "Which programming language is used to build Flutter applications?",
+          "options": [
+            "A. Kotlin",
+            "B. Dart",
+            "C. Java",
+            "D. Go"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 10
+        },
+        {
+          "id": "q4",
+          "question": "How many types of widgets are there in Flutter?",
+          "options": [
+            "A. 2",
+            "B. 4",
+            "C. 6", 
+            "D. 8"
+          ],
+          "correctAnswer": "A",
+          "timeLimit": 10
+        },
+        {
+          "id": "q5",
+          "question": "A sequence of asynchronous Flutter events is known as a:",
+          "options": [
+            "A. Flow",
+            "B. Current",
+            "C. Stream", 
+            "D. Series"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 10
+        }
+      ]
+    }
+  ]
+}
