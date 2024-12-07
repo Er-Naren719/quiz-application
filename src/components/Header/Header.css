@@ -1,0 +1,25 @@
+header {
+	border-bottom: 1px solid #d9d9d9;
+	background: #f3f3e9;
+}
+
+header .container {
+	max-width: 1500px;
+	padding: 15px 0;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.exit-quiz button {
+	padding: 8px 50px;
+	border: 1px solid #b92b5d;
+	border-radius: 8px;
+	color: #b92b5d;
+  cursor: pointer;
+	background: #f3f3e9;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 20px;
+}
