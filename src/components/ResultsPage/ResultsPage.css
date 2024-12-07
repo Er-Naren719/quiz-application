@@ -4,7 +4,7 @@
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
-	background-color: #f0f0f0;
+	background-color: #f3f3e9;
 	text-align: center;
 }
 
@@ -23,14 +23,15 @@
 
 .restart-button {
 	padding: 15px 30px;
-	border: none;
+	border: 1px solid #b92b5d;
 	border-radius: 8px;
-	background-color: #4caf50;
-	color: white;
+	background-color: transparent;
+	color: #b92b5d;
 	cursor: pointer;
 	transition: background-color 0.3s ease;
 }
 
 .restart-button:hover {
-	background-color: #45a049;
+	background-color: #b92b5d;
+	color: #fff;
 }

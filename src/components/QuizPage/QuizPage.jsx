@@ -26,6 +26,7 @@ const QuizPage = ({ category, onQuizComplete }) => {
     }, 1000);
 
     return () => clearInterval(timer);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentQuestionIndex]);
 
   const moveToNextQuestion = () => {

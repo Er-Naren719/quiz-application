@@ -18,6 +18,7 @@ function Header({ onRestart, currentPage }) {
 						<button onClick={onRestart}>Exit Quiz</button>
 					</div>
 				)}
+				{currentPage === "results" && <span>{userName}</span>}
 			</div>
 		</header>
 	);

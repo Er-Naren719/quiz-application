@@ -9,7 +9,7 @@
 
 .timer {
 	margin-bottom: 20px;
-	color: #ff6f61;
+	color: #b92b5d;
 	font-size: 18px;
 }
 
@@ -28,10 +28,10 @@
 
 .option-button {
 	padding: 15px;
-	border: none;
+	border: 1px solid #b92b5d;
 	border-radius: 8px;
-	background-color: #4caf50;
-	color: white;
+	background-color: transparent;
+	color: #b92b5d;
 	cursor: pointer;
 	transition: background-color 0.3s ease;
 }
@@ -42,8 +42,10 @@
 
 .option-button.correct {
 	background-color: green;
+	color: #fff;
 }
 
 .option-button.incorrect {
 	background-color: red;
+	color: #fff;
 }

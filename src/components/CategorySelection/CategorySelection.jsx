@@ -46,7 +46,7 @@ const CategorySelection = ({ onSelectCategory }) => {
 						{category.name}
 					</button>
 				))}
-				<button className="start-quiz" onClick={() => onSelectCategory(category)}>Start Quiz</button>
+				<button disabled={!category} className="start-quiz" onClick={() => onSelectCategory(category)}>Start Quiz</button>
 			</div>
 		</div>
 	);
