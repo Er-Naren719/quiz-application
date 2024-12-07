@@ -23,3 +23,7 @@ header .container {
 	font-weight: 500;
 	line-height: 20px;
 }
+
+.hidden-username {
+	visibility: hidden;
+}

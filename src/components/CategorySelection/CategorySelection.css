@@ -1,0 +1,95 @@
+h1 {
+	margin: 60px auto 28px;
+	color: #2e2e2e;
+	font-size: 64px;
+	line-height: 80px;
+}
+h1 .thin {
+	color: #b92b5d;
+	font-weight: 200;
+}
+h1 .thik {
+	color: #b92b5d;
+	font-weight: 700;
+}
+.rules-container {
+	padding: 16px 12px;
+	border-radius: 8px;
+	margin-bottom: 28px;
+	background: #d9d9d960;
+	text-align: left;
+}
+.rules-container p {
+	margin: 0 0 8px 0;
+	color: #373052;
+	font-size: 20px;
+	line-height: 25px;
+}
+.rules-container button {
+	padding: 0;
+	border: none;
+	background: transparent;
+	color: #b92b5d;
+	cursor: pointer;
+	font-size: 20px;
+	line-height: 25px;
+}
+.username {
+	margin-bottom: 28px;
+	text-align: left;
+}
+.username label {
+	color: #373052;
+}
+.username input {
+	width: 100%;
+	padding: 15px 20px;
+	border: 1px solid #d9d9d9;
+	border-radius: 8px;
+	margin-top: 15px;
+	box-sizing: border-box;
+	display: block;
+	color: #373052;
+	font-size: 20px;
+	line-height: 25px;
+}
+h6 {
+	margin: 0 0 15px 0;
+	color: #373052;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: left;
+}
+.category-grid {
+	/* max-width: 600px; */
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 30px;
+}
+
+.category-button {
+	padding: 15px;
+	border: 1px solid #d9d9d9;
+	border-radius: 8px;
+	background: #fff;
+	color: #373052;
+	cursor: pointer;
+}
+
+.category-button:hover,
+.category-button:active,
+.category-button:focus {
+	border-color: #b92b5d;
+}
+
+.start-quiz {
+	padding: 8px 35px;
+	border: none;
+	border-radius: 8px;
+	margin-bottom: 40px;
+	background: #b92b5d;
+	color: #fff;
+	font-size: 24px;
+	line-height: 36px;
+}

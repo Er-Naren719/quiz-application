@@ -1,19 +1,23 @@
 import React from "react";
 import "./Header.css";
 
-function Header() {
-	const onExit = () => {
-		console.log("Exit quiz");
-	};
+function Header({ onRestart, currentPage }) {
+	const userName = sessionStorage.getItem("username")
+		? sessionStorage.getItem("username")
+		: "User";
+
 	return (
 		<header>
 			<div className="container">
 				<div className="logo">
 					<img src="/images/QUIZMania.svg" alt="QUIZMania" />
 				</div>
-				<div className="exit-quiz">
-					<button onClick={onExit}>Exit Quiz</button>
-				</div>
+				{currentPage === "category" && <span className="hidden-username">{userName}</span>}
+				{currentPage === "quiz" && (
+					<div className="exit-quiz">
+						<button onClick={onRestart}>Exit Quiz</button>
+					</div>
+				)}
 			</div>
 		</header>
 	);

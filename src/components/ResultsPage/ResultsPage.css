@@ -1,0 +1,36 @@
+.results-page {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #f0f0f0;
+	text-align: center;
+}
+
+.results-details {
+	padding: 30px;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	background-color: white;
+}
+
+.results-details p {
+	margin: 10px 0;
+	font-size: 18px;
+}
+
+.restart-button {
+	padding: 15px 30px;
+	border: none;
+	border-radius: 8px;
+	background-color: #4caf50;
+	color: white;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.restart-button:hover {
+	background-color: #45a049;
+}
