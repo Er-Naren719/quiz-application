@@ -35,3 +35,10 @@
 	background-color: #b92b5d;
 	color: #fff;
 }
+
+@media screen and (max-width: 767px) {
+	.results-details {
+		box-shadow: none;
+		background: transparent;
+	}
+}

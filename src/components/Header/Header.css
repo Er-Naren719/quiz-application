@@ -5,11 +5,11 @@ header {
 
 header .container {
 	max-width: 1500px;
-	padding: 15px 0;
+	padding: 15px;
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .exit-quiz button {
@@ -26,4 +26,16 @@ header .container {
 
 .hidden-username {
 	visibility: hidden;
+}
+
+@media screen and (max-width: 767px) {
+	header .container {
+		width: 100%;
+		max-width: 100%;
+		box-sizing: border-box;
+	}
+
+	.exit-quiz button {
+		padding: 8px 12px;
+	}
 }
